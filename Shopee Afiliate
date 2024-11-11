@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.cta-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.produk {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.produk h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.produk-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.produk-item {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.produk-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.produk-item h3 {
+  margin-top: 15px;
+}
+
+.cara-belanja {
+  background-color: #e8e8e8;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact {
+  padding: 40px 20px;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+}
+
+.contact form input, .contact form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
